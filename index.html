@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zetacraft &ndash; 1.18</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="public/images/favicon.ico">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+    <main>
+        <header id="particles-js" class="d-flex flex-column">
+            <div class="bars">
+            </div>
+            <div class="navigation d-flex justify-content-between align-items-center row">
+                <div class="left d-flex align-items-center">
+                    <div class="logo"></div>
+                    <p>Zetacraft</p>
+                    <nav class="nav">
+                        <a class="nav-link" href="../">Inicio</a>
+                        <a class="nav-link" href="/banlist">Sanciones</a>
+                        <a class="nav-link" href="/adminteam/index.html">Staff</a>
+                        <a class="nav-link" href="https://zetacraft.tebex.io/">Tienda</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="content m-auto">
+                <h1>Zetacraft</h1>
+                <p class="subtitle">Survival Towny</p>
+            </div>
+        </header>
+        <section id="post-header">
+            <div>
+                <div class="col-md-6 offset-md-3 d-flex gradient">
+                    <div class="left">
+                        <h2>¡Entra ya!</h2>
+                        <p>Juega junto a <span id="online"></span> jugadores.</p>
+                    </div>
+                    <div class="right">
+                        <button onclick="copyStringToClipboard('mc.zetacraft.cl');" class="btn">Copiar IP</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="row align-items-center">
+                <div class="left col-md-5 offset-md-1">
+                    <div data-shadow="¿Otra vez?" class="title">
+                        <h2>¿Zetacraft otra vez?</h2>
+                        <p>En este pequeño texto queremos dejar en claro para que fue re-abierto el servidor Zetacraft.</p>
+                    </div>
+                    <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in felis ac arcu
+                        sodales lobortis sit amet non dui. Cras non augue massa. Donec feugiat augue ac massa posuere,
+                        quis tincidunt nisl dictum. Duis ac consequat urna. Ut porttitor sed nisl sed varius. Morbi sit
+                        amet lectus massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                        turpis egestas. Proin mauris magna, pharetra non iaculis at, fringilla vitae sem. Quisque nec
+                        justo id metus consequat semper id at velit.</p>
+
+                    <div class="features">
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fas fa-dollar-sign"></i>
+                            <p class="text-center">Economía</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fas fa-gamepad"></i>
+                            <p class="text-center">Diversión</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fas fa-handshake"></i>
+                            <p class="text-center">Amabilidad</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fas fa-server"></i>
+                            <p class="text-center">Servidor estable</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-md-3 offset-md-2">
+                    <img src="./public/images/render_postava.png" alt="Postava">
+                </div>
+            </div>
+        </section>
+
+        <section id="servers">
+            <div class="row">
+                <div data-shadow="¿Qué hay en el servidor?" class="title col-md-10 offset-md-1">
+                    <h2>¿Qué hay en el servidor?</h2>
+                    <p>Adentrate en las maravillas que tiene el servidor...</p>
+                </div>
+            </div>
+            <div class="servers">
+                <div class="d-flex align-items-center">
+                    <div class="icon" style="background-image: url('./public/images/annihilation.png');"></div>
+                    <div class="content">
+                        <h3>Survival Entretenido</h3>
+                        <p>El servidor contiene mecanicas de survival vanillas mejoradas, las cuales
+                            aportan a que la experiencia sea mejorada.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="icon" style="background-image: url('./public/images/getdown.png');"></div>
+                    <div class="content">
+                        <h3>Aventuras por descubrir</h3>
+                        <p>¿Quieres explorar el mundo y encontrar diferentes experiencias para divertirte solo
+                            o con tus amigos?. ¡En <strong>Zetacraft</strong> hay muchos lugares por explorar!
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="icon" style="background-image: url('./public/images/tntrun.png');"></div>
+                    <div class="content">
+                        <h3>PvP</h3>
+                        <p>¡Pelea y pelea hasta que quedes muerto del cansancio, servidor con <strong>PVP Estilo
+                            1.8</strong> en el cual podrás crear grandes combates solo y con amigos!
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 row align-items-center">
+                    <div class="col-md info">
+                        <p>¿Qué esperas?, ¡Entra ya!</p>
+                        <p class="ip">MC.ZETACRAFT.CL</p>
+                    </div>
+                    <div class="col-md copyright">
+                        <p>Nosotros no estamos afiliados con Mojang.</p>
+                        <p>&copy; <span class="year"></span> Zetacraft 1.18.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="public/js/particles.min.js"></script>
+    <script type="text/javascript" src="public/js/function.js"></script>
+    <script type="text/javascript" src="public/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/319198f7f9.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+    $('.year').text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>
